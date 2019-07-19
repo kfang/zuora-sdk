@@ -1,0 +1,17 @@
+{
+  "name": "zuora-sdk-ts",
+  "version": "1.0.0-SNAPSHOT",
+  "license": "UNLICENSED",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@types/request": "^2.48.2",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "prepublish": "tsc"
+  }
+}
