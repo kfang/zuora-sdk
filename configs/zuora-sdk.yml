@@ -1,0 +1,12 @@
+generatorName: typescript-axios
+outputDir: artifacts/zuora-sdk/typescript-axios
+inputSpec: "https://assets.zuora.com/zuora-documentation/swagger.yaml"
+additionalProperties:
+  npmVersion: 1.0.0
+  npmName: '@kfang/zuora-sdk-typescript-axios'
+  npmRepository: https://npmjs.com/registry
+  snapshot: false
+  apiPackage: com.zuora.api
+  modelPackage: com.zuora.models
+  supportsES6: true
+  withSeparateModelsAndApi: true
